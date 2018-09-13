@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TextoResumo">
+
+    <ImageView
+        android:id="@+id/imageview_bugdroid"
+        android:src="@drawable/bugdroid"
+        android:layout_height="200dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="42dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bugdroid"
+        android:textAlignment="center"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#212121"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22dp"
+        android:lineSpacingExtra="5dp"
+
+        android:text="“É só pensarmos no nome “Android” que a imagem do robozinho verde da Google
+já aparece em nossas cabeças. Não é difícil fazer a associação, uma vez que se
+trata da logo do sistema operacional portátil mais utilizado do planeta. Pois é, o
+Android está presente em smartphones, tablets e até mesmo Plug-PCs, estando
+disponível para consumidores dos mais diferentes perfis.”"/>
+
+    <Button
+        android:id="@+id/btn_lermais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F57C00"
+        android:textColor="#FFF"
+        android:text="LER MAIS"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+
+
+</LinearLayout>
